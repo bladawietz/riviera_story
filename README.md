@@ -19,4 +19,4 @@ The finished game will have basic rules:
 
 Coding of this game started on my COVID quarantine, when I was really bored.
 
-![Version 0_1]riviera_story_0_1.png
+![Version 0_1](riviera_story_0_1.png)
