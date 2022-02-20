@@ -1,4 +1,9 @@
 # RIVIERA STORY
+
+### CURRENT VERSION 0.2:
+- added sprites and sprite movement logic and paths
+- added and fixed some graphics elements
+
 A very small game for Commodore 64
 
 Based on the true story...
@@ -10,7 +15,7 @@ In a blink of the eye terrible Monstrum (not Monster - he is another person) asc
 And KAC MORALNIAK grabbed our hero and transported him to torment halls. Can you help him to survive 10 deadly trials??
 
 Sorry but you cant, the game is not finished yet. But it will be..
-In release 0.1 you can visit one of the levels. Using Joystick in port 2 you can move left and right. Press fire to jump. Its only preview.
+In release 0.2 you can visit one of the levels. Using Joystick in port 2 you can move left and right. Press fire to jump. Its only preview.
 
 The finished game will have basic rules:
 - survive 2:00 in every of 10 torment chambers. Everything that moves kills you. And red spikes are also not good for your health
@@ -19,4 +24,20 @@ The finished game will have basic rules:
 
 Coding of this game started on my COVID quarantine, when I was really bored.
 
-![Version 0_1](riviera_story_0_1.png)
+# Assembly instructions:
+
+To generate program file use Kickassembler: http://www.theweb.dk/KickAssembler/Main.html#frontpage
+
+java –jar kickass.jar riviera_0_2.asm
+
+All bin files must be in current directory!
+
+# Used tools:
+
+ - Kickassembler
+ - Visual Studio Code with Kick Assembler 8-Bit Retro Studio extension by Paul Hocker
+ - Spritepad PRO
+ - Charpad PRO
+
+
+![Version 0_1](ver_0_2/riviera_0_2.png)
